@@ -1,0 +1,8 @@
+.home {
+    background: url('../../assets/blue.webp');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 500px;
+}
