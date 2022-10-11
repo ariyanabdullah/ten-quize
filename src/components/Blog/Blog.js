@@ -17,10 +17,10 @@ const Blog = () => {
 
             {/* Third box */}
 
-            <div >
-               <h1 > 3. Details About UseRef Hook  ?</h1> 
+            <div className='w-[60%] px-5 py-9 mx-auto shadow-xl rounded-lg my-7'>
+               <h1 className='text-3xl font-semibold my-5'> 3. Details About UseRef Hook  ?</h1> 
 
-               <p>
+               <p className='text-md  font-semibold'>
                 =useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. <br/>
                 However, useRef() is useful for more than the ref attribute.
                 This works because useRef() creates a plain JavaScript object.
