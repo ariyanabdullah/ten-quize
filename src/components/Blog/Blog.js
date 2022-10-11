@@ -3,7 +3,9 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <h1>This is blog</h1>
+            <div>
+                1. What is the purpose of React Router?
+            </div>
         </div>
     );
 };
