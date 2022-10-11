@@ -9,14 +9,16 @@ const Blog = () => {
             </div>
           {/* second box */}
             <div>
-               <h1 > 2. How does Context API works ?</h1> 
-               
+               <h1 className='text-3xl font-semibold my-5'> 2. How does Context API works ?</h1> 
+               <p className='text-md  font-semibold'>
+                =React.createContext() is all you need.  It returns a consumer and a provider. <br/> Provider is a component that as it's names suggests provides the state to its children.<br/>  It will hold the "store" and be the parent of all the components that might need that store.<br/>  Consumer as it so happens is a component that consumes and uses the state.
+               </p>
             </div>
 
 
 
 
-            
+
         </div>
     );
 };
