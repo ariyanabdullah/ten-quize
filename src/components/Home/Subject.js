@@ -10,7 +10,9 @@ const Subject = ({sub}) => {
 
     return (
         <div className='bg-gray-100 p-6 rounded shadow-lg'>
-        
+           <div >
+           <span className=' text-gray-500 font-semibold'> Total Quiz: {total}</span>
+          </div>
         <img src={logo} alt="" className="object-contain object-center w-full rounded-md h-72 " />
         <p className='mb-2 text-xl font-bold leading-none sm:text-2xl'>{name}</p>
         
