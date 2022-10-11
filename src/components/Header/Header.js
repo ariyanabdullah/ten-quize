@@ -39,7 +39,7 @@ const Header = () => {
               title='Home'
               className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
             >
-              Home
+              Topics 
             </Link>
           </li>
           <li>
